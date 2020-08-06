@@ -1,0 +1,5 @@
+E:/(_Work-Git_)/Skills-C/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+E:/(_Work-Git_)/Skills-C/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+E:/(_Work-Git_)/Skills-C/out/build/x64-Debug (default)/Pointers/CMakeFiles/Pointers.dir
+E:/(_Work-Git_)/Skills-C/out/build/x64-Debug (default)/Pointers/CMakeFiles/edit_cache.dir
+E:/(_Work-Git_)/Skills-C/out/build/x64-Debug (default)/Pointers/CMakeFiles/rebuild_cache.dir
