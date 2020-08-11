@@ -13,11 +13,33 @@ void print_bits_state(char aCh)
 
 }
 
+void print_what_endianness() 
+{
+	short int a, b = 0;
+
+	uint32_t test = 0x11223344;
+	uint8_t i;
+	uint8_t* ptr = (uint8_t*)&test;
+
+	a = *ptr;
+	for (size_t i = 0; i < 4; i++)
+	{
+		if (i == 4)b = *ptr;
+
+		printf("%u: %X\n", i, *ptr);
+		ptr++;
+	}
+	
+	if (a < b) printf("Big-Endian\n");
+	else printf("Little-Endian\n");
+}
 
 int main(int argc, char* argv[]) 
 {
-	print_bits_state(203);
+	
 
+	print_bits_state(203);
+	print_what_endianness();
 	/*
 	*  1 & 1 = 1  +
 	*  1 & 0 = 0
