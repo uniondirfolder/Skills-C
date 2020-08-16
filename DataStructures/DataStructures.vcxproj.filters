@@ -15,8 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TrieNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="amain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrieNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
