@@ -74,7 +74,7 @@ inline bool Trie<T>::deleteValue(const T* value)
 	size_t length{ 0 };
 	length = LengthOfArray(value);
 
-	if (length) {
+	if (length) {// - must todo chek
 
 		size_t pathLength = 0;
 		TrieNode<T>** path = new TrieNode<T> * [length];
@@ -112,6 +112,11 @@ inline bool Trie<T>::deleteValue(const T* value)
 				}
 			}
 			return true;
+		}
+		else
+		{
+			// ???
+
 		}
 	}
 
