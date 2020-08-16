@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="amain.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="Trie.h" />
     <ClInclude Include="TrieNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

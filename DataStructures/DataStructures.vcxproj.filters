@@ -21,5 +21,11 @@
     <ClInclude Include="TrieNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Trie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
